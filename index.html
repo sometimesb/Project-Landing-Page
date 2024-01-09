@@ -9,19 +9,21 @@
 </head>
 <body>
   <header class="flex-container" id="header">
-      <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
-      <a class="nav-link one" href="#">Features</a>
-      <a class="nav-link two" href="#">How It Works</a>
-      <a class="nav-link three" href="#">Pricing</a>
+    <!-- <nav id="nav-bar"> -->
+        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" id="header-img">
+        <a class="nav-link one" href="#email-form">Get Started</a>
+        <a class="nav-link two" href="#info-blocks">How It Works</a>
+        <a class="nav-link three" href="#video-block">Video</a>
+      <!-- </nav> -->
   </header>
-  <section class="email-form">
+  <section id="email-form" class="email-form">
     <h3>Handcrafted, home-made masterpieces</h3>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
       <input type="email" name="email" id="email" placeholder=" Enter your email address">
-      <button type="submit" id="submit">GET STARTED</button>
+      <input type="submit" name="submit" id="submit" value="GET STARTED">
     </form>
   </section> 
-  <section class="info-blocks">
+  <section id="info-blocks" class="info-blocks">
       <div class="bullet-block">
         <ul>
           <li>
@@ -56,8 +58,7 @@
       </ul>
     </div>
   </section>
-
-  <section class="video-block">
+  <section id="video-block" class="video-block">
     <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allowfullscreen></iframe>
   </section>
   <!---
