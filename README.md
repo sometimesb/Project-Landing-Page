@@ -1,5 +1,5 @@
 # 🌐 Project Landing Page
-A project for freeCodeCamp to illustrate using HTML and CSS to create a technical documentation page.
+A project for freeCodeCamp to illustrate using HTML and CSS to create a project landing page.
 
 ## 🔧 Technologies Used
 Super simple project. I just used the following:
